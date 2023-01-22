@@ -13,10 +13,6 @@ html, body {
   margin: 0;
   padding: 0;
   text-align: center;
-  @media (prefers-color-scheme: dark) {
-  background-color: #121212;
-  color: #ffffff;
-}
 }
 
 .header_img {
@@ -27,4 +23,16 @@ html, body {
 .header_button {
 height: 55px;
 length: 136.5px;
+}
+
+@media (prefers-color-scheme: dark) {
+  html, body {
+  background-color: #121212;
+  color: #ffffff;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  }
 }
